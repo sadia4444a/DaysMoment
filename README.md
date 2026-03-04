@@ -5,7 +5,7 @@
 ### _Every Second Counts. Make It Matter._
 
 <p align="center">
-  <img src="./screenshot.png" alt="DaysMoment App Screenshot" width="800px" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+  <img src="https://github.com/sadia4444a/DaysMoment/blob/main/daysMoment.png" alt="DaysMoment App Screenshot" width="800px" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
 </p>
 
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com)
