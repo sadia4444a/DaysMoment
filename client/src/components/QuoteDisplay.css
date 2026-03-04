@@ -1,0 +1,142 @@
+.quote-display {
+  max-width: 800px;
+  width: 100%;
+  padding: 15px 25px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-display::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+.quote-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top: 3px solid #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.quote-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+
+.quote-icon {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.1);
+  line-height: 1;
+  margin-bottom: 3px;
+  font-family: Georgia, serif;
+}
+
+.quote-text {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #ffffff;
+  margin-bottom: 8px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.quote-author {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #999;
+  font-style: italic;
+  margin-bottom: 0;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+  .quote-display {
+    padding: 30px 20px;
+    min-height: 200px;
+  }
+
+  .quote-icon {
+    font-size: 3rem;
+  }
+
+  .quote-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .quote-author {
+    font-size: 1rem;
+  }
+
+  .quote-category {
+    font-size: 0.7rem;
+    padding: 5px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-display {
+    padding: 20px 15px;
+    min-height: 180px;
+  }
+
+  .quote-icon {
+    font-size: 2.5rem;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .quote-author {
+    font-size: 0.9rem;
+  }
+
+  .quote-category {
+    font-size: 0.65rem;
+    padding: 4px 10px;
+  }
+}

@@ -1,0 +1,937 @@
+[
+  {
+    "quote": "Time is what we want most, but what we use worst.",
+    "author": "William Penn",
+    "category": "time-management"
+  },
+  {
+    "quote": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+    "author": "Stephen Covey",
+    "category": "time-management"
+  },
+  {
+    "quote": "Lost time is never found again.",
+    "author": "Benjamin Franklin",
+    "category": "time-management"
+  },
+  {
+    "quote": "Time you enjoy wasting is not wasted time.",
+    "author": "Marthe Troly-Curtin",
+    "category": "happiness"
+  },
+  {
+    "quote": "The bad news is time flies. The good news is you're the pilot.",
+    "author": "Michael Altshuler",
+    "category": "ambition"
+  },
+  {
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "category": "ambition"
+  },
+  {
+    "quote": "Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.",
+    "author": "Mother Teresa",
+    "category": "life"
+  },
+  {
+    "quote": "The future depends on what you do today.",
+    "author": "Mahatma Gandhi",
+    "category": "ambition"
+  },
+  {
+    "quote": "Time is the most valuable thing a man can spend.",
+    "author": "Theophrastus",
+    "category": "time-management"
+  },
+  {
+    "quote": "Your time is limited, don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "category": "life"
+  },
+  {
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney",
+    "category": "ambition"
+  },
+  {
+    "quote": "Time flies over us, but leaves its shadow behind.",
+    "author": "Nathaniel Hawthorne",
+    "category": "life"
+  },
+  {
+    "quote": "Better three hours too soon than a minute too late.",
+    "author": "William Shakespeare",
+    "category": "time-management"
+  },
+  {
+    "quote": "Time is a created thing. To say 'I don't have time' is to say 'I don't want to'.",
+    "author": "Lao Tzu",
+    "category": "time-management"
+  },
+  {
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "category": "happiness"
+  },
+  {
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "happiness"
+  },
+  {
+    "quote": "Peace comes from within. Do not seek it without.",
+    "author": "Buddha",
+    "category": "peace"
+  },
+  {
+    "quote": "If you want to live a happy life, tie it to a goal, not to people or things.",
+    "author": "Albert Einstein",
+    "category": "happiness"
+  },
+  {
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "ambition"
+  },
+  {
+    "quote": "The secret of change is to focus all of your energy not on fighting the old, but on building the new.",
+    "author": "Socrates",
+    "category": "life"
+  },
+  {
+    "quote": "An investment in knowledge pays the best interest.",
+    "author": "Benjamin Franklin",
+    "category": "finance"
+  },
+  {
+    "quote": "Do not save what is left after spending, but spend what is left after saving.",
+    "author": "Warren Buffett",
+    "category": "finance"
+  },
+  {
+    "quote": "Time management is life management.",
+    "author": "Robin Sharma",
+    "category": "time-management"
+  },
+  {
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "category": "life"
+  },
+  {
+    "quote": "In the end, we only regret the chances we didn't take.",
+    "author": "Lewis Carroll",
+    "category": "life"
+  },
+  {
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "ambition"
+  },
+  {
+    "quote": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins",
+    "category": "ambition"
+  },
+  {
+    "quote": "Productivity is never an accident. It is always the result of a commitment to excellence.",
+    "author": "Paul J. Meyer",
+    "category": "time-management"
+  },
+  {
+    "quote": "Focus on being productive instead of busy.",
+    "author": "Tim Ferriss",
+    "category": "time-management"
+  },
+  {
+    "quote": "You can't use up creativity. The more you use, the more you have.",
+    "author": "Maya Angelou",
+    "category": "life"
+  },
+  {
+    "quote": "Peace begins with a smile.",
+    "author": "Mother Teresa",
+    "category": "peace"
+  },
+  {
+    "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+    "author": "Mahatma Gandhi",
+    "category": "happiness"
+  },
+  {
+    "quote": "The price of anything is the amount of life you exchange for it.",
+    "author": "Henry David Thoreau",
+    "category": "time-management"
+  },
+  {
+    "quote": "Either you run the day or the day runs you.",
+    "author": "Jim Rohn",
+    "category": "time-management"
+  },
+  {
+    "quote": "It's not about having time. It's about making time.",
+    "author": "Unknown",
+    "category": "time-management"
+  },
+  {
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "category": "ambition"
+  },
+  {
+    "quote": "A year from now you may wish you had started today.",
+    "author": "Karen Lamb",
+    "category": "ambition"
+  },
+  {
+    "quote": "The successful warrior is the average man, with laser-like focus.",
+    "author": "Bruce Lee",
+    "category": "ambition"
+  },
+  {
+    "quote": "If you spend too much time thinking about a thing, you'll never get it done.",
+    "author": "Bruce Lee",
+    "category": "time-management"
+  },
+  {
+    "quote": "Wealth consists not in having great possessions, but in having few wants.",
+    "author": "Epictetus",
+    "category": "finance"
+  },
+  {
+    "quote": "It's not how much money you make, but how much money you keep.",
+    "author": "Robert Kiyosaki",
+    "category": "finance"
+  },
+  {
+    "quote": "Every moment is a fresh beginning.",
+    "author": "T.S. Eliot",
+    "category": "life"
+  },
+  {
+    "quote": "Life is 10% what happens to you and 90% how you react to it.",
+    "author": "Charles R. Swindoll",
+    "category": "life"
+  },
+  {
+    "quote": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama",
+    "category": "happiness"
+  },
+  {
+    "quote": "Happiness is not by chance, but by choice.",
+    "author": "Jim Rohn",
+    "category": "happiness"
+  },
+  {
+    "quote": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+    "author": "Thich Nhat Hanh",
+    "category": "peace"
+  },
+  {
+    "quote": "Peace is the result of retraining your mind to process life as it is, rather than as you think it should be.",
+    "author": "Wayne Dyer",
+    "category": "peace"
+  },
+  {
+    "quote": "Until you value yourself, you won't value your time.",
+    "author": "M. Scott Peck",
+    "category": "time-management"
+  },
+  {
+    "quote": "Procrastination is the thief of time.",
+    "author": "Edward Young",
+    "category": "time-management"
+  },
+  {
+    "quote": "One day or day one. You decide.",
+    "author": "Unknown",
+    "category": "ambition"
+  },
+  {
+    "quote": "Dream big, start small, act now.",
+    "author": "Robin Sharma",
+    "category": "ambition"
+  },
+  {
+    "quote": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "category": "ambition"
+  },
+  {
+    "quote": "Money is a terrible master but an excellent servant.",
+    "author": "P.T. Barnum",
+    "category": "finance"
+  },
+  {
+    "quote": "Never spend your money before you have earned it.",
+    "author": "Thomas Jefferson",
+    "category": "finance"
+  },
+  {
+    "quote": "The stock market is filled with individuals who know the price of everything, but the value of nothing.",
+    "author": "Philip Fisher",
+    "category": "finance"
+  },
+  {
+    "quote": "Time is the coin of your life. You spend it. Do not allow others to spend it for you.",
+    "author": "Carl Sandburg",
+    "category": "time-management"
+  },
+  {
+    "quote": "The common man is not concerned about the passage of time, the man of talent is driven by it.",
+    "author": "Schopenhauer",
+    "category": "ambition"
+  },
+  {
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "life"
+  },
+  {
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "category": "life"
+  },
+  {
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "category": "life"
+  },
+  {
+    "quote": "For every minute you are angry you lose sixty seconds of happiness.",
+    "author": "Ralph Waldo Emerson",
+    "category": "happiness"
+  },
+  {
+    "quote": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "category": "happiness"
+  },
+  {
+    "quote": "The greatest wealth is to live content with little.",
+    "author": "Plato",
+    "category": "peace"
+  },
+  {
+    "quote": "Do not let the behavior of others destroy your inner peace.",
+    "author": "Dalai Lama",
+    "category": "peace"
+  },
+  {
+    "quote": "Nothing can bring you peace but yourself.",
+    "author": "Ralph Waldo Emerson",
+    "category": "peace"
+  },
+  {
+    "quote": "Action is the foundational key to all success.",
+    "author": "Pablo Picasso",
+    "category": "ambition"
+  },
+  {
+    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau",
+    "category": "ambition"
+  },
+  {
+    "quote": "Opportunities don't happen. You create them.",
+    "author": "Chris Grosser",
+    "category": "ambition"
+  },
+  {
+    "quote": "Don't let yesterday take up too much of today.",
+    "author": "Will Rogers",
+    "category": "time-management"
+  },
+  {
+    "quote": "You may delay, but time will not.",
+    "author": "Benjamin Franklin",
+    "category": "time-management"
+  },
+  {
+    "quote": "Time spent on planning is never time wasted.",
+    "author": "Unknown",
+    "category": "time-management"
+  },
+  {
+    "quote": "Formal education will make you a living; self-education will make you a fortune.",
+    "author": "Jim Rohn",
+    "category": "finance"
+  },
+  {
+    "quote": "The habit of saving is itself an education; it fosters every virtue.",
+    "author": "T.T. Munger",
+    "category": "finance"
+  },
+  {
+    "quote": "Financial peace isn't the acquisition of stuff. It's learning to live on less than you make.",
+    "author": "Dave Ramsey",
+    "category": "finance"
+  },
+  {
+    "quote": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "category": "life"
+  },
+  {
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "category": "life"
+  },
+  {
+    "quote": "Life isn't about finding yourself. Life is about creating yourself.",
+    "author": "George Bernard Shaw",
+    "category": "life"
+  },
+  {
+    "quote": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    "category": "happiness"
+  },
+  {
+    "quote": "Count your age by friends, not years. Count your life by smiles, not tears.",
+    "author": "John Lennon",
+    "category": "happiness"
+  },
+  {
+    "quote": "Happiness is not a goal; it is a by-product.",
+    "author": "Eleanor Roosevelt",
+    "category": "happiness"
+  },
+  {
+    "quote": "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means.",
+    "author": "Ronald Reagan",
+    "category": "peace"
+  },
+  {
+    "quote": "If you want to make peace with your enemy, you have to work with your enemy.",
+    "author": "Nelson Mandela",
+    "category": "peace"
+  },
+  {
+    "quote": "Set your goals high, and don't stop till you get there.",
+    "author": "Bo Jackson",
+    "category": "ambition"
+  },
+  {
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "category": "ambition"
+  },
+  {
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "category": "ambition"
+  },
+  {
+    "quote": "Time flies, but memories last forever.",
+    "author": "Unknown",
+    "category": "life"
+  },
+  {
+    "quote": "Make each day your masterpiece.",
+    "author": "John Wooden",
+    "category": "time-management"
+  },
+  {
+    "quote": "Time is free, but it's priceless. You can't own it, but you can use it.",
+    "author": "Harvey Mackay",
+    "category": "time-management"
+  },
+  {
+    "quote": "Taking care of yourself is the most powerful way to begin to take care of others.",
+    "author": "Bryant McGill",
+    "category": "life"
+  },
+  {
+    "quote": "Small daily improvements over time lead to stunning results.",
+    "author": "Robin Sharma",
+    "category": "ambition"
+  },
+  {
+    "quote": "The richest man is not he who has the most, but he who needs the least.",
+    "author": "Unknown",
+    "category": "finance"
+  },
+  {
+    "quote": "Beware of little expenses; a small leak will sink a great ship.",
+    "author": "Benjamin Franklin",
+    "category": "finance"
+  },
+  {
+    "quote": "The real measure of your wealth is how much you'd be worth if you lost all your money.",
+    "author": "Unknown",
+    "category": "finance"
+  },
+  {
+    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi",
+    "category": "life"
+  },
+  {
+    "quote": "Life is too important to be taken seriously.",
+    "author": "Oscar Wilde",
+    "category": "life"
+  },
+  {
+    "quote": "The purpose of life is not to be happy. It is to be useful, honorable, compassionate.",
+    "author": "Ralph Waldo Emerson",
+    "category": "life"
+  },
+  {
+    "quote": "Happiness is a direction, not a place.",
+    "author": "Sydney J. Harris",
+    "category": "happiness"
+  },
+  {
+    "quote": "The most wasted of days is one without laughter.",
+    "author": "E.E. Cummings",
+    "category": "happiness"
+  },
+  {
+    "quote": "Be happy for this moment. This moment is your life.",
+    "author": "Omar Khayyam",
+    "category": "happiness"
+  },
+  {
+    "quote": "Peace is always beautiful.",
+    "author": "Walt Whitman",
+    "category": "peace"
+  },
+  {
+    "quote": "When the power of love overcomes the love of power, the world will know peace.",
+    "author": "Jimi Hendrix",
+    "category": "peace"
+  },
+  {
+    "quote": "Inner peace begins the moment you choose not to allow another person to control your emotions.",
+    "author": "Pema Chodron",
+    "category": "peace"
+  },
+  {
+    "quote": "What you get by achieving your goals is not as important as what you become.",
+    "author": "Zig Ziglar",
+    "category": "ambition"
+  },
+  {
+    "quote": "Don't wait for opportunity. Create it.",
+    "author": "Unknown",
+    "category": "ambition"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "ambition"
+  },
+  {
+    "quote": "Effective performance is preceded by painstaking preparation.",
+    "author": "Brian Tracy",
+    "category": "time-management"
+  },
+  {
+    "quote": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe.",
+    "author": "Abraham Lincoln",
+    "category": "time-management"
+  },
+  {
+    "quote": "Time management is about life management, about managing relationships and your health.",
+    "author": "Unknown",
+    "category": "time-management"
+  },
+  {
+    "quote": "A budget is telling your money where to go instead of wondering where it went.",
+    "author": "Dave Ramsey",
+    "category": "finance"
+  },
+  {
+    "quote": "The individual investor should act consistently as an investor and not as a speculator.",
+    "author": "Ben Graham",
+    "category": "finance"
+  },
+  {
+    "quote": "Every time you borrow money, you're robbing your future self.",
+    "author": "Nathan W. Morris",
+    "category": "finance"
+  },
+  {
+    "quote": "The purpose of life is to live it, to taste experience to the utmost.",
+    "author": "Eleanor Roosevelt",
+    "category": "life"
+  },
+  {
+    "quote": "Life is a succession of lessons which must be lived to be understood.",
+    "author": "Ralph Waldo Emerson",
+    "category": "life"
+  },
+  {
+    "quote": "Life shrinks or expands in proportion to one's courage.",
+    "author": "Anais Nin",
+    "category": "life"
+  },
+  {
+    "quote": "Happiness is not something you postpone for the future; it is something you design for the present.",
+    "author": "Jim Rohn",
+    "category": "happiness"
+  },
+  {
+    "quote": "The secret of happiness is freedom, the secret of freedom is courage.",
+    "author": "Carrie Jones",
+    "category": "happiness"
+  },
+  {
+    "quote": "Happiness is letting go of what you think your life is supposed to look like.",
+    "author": "Unknown",
+    "category": "happiness"
+  },
+  {
+    "quote": "Nobody can bring you peace but yourself.",
+    "author": "Ralph Waldo Emerson",
+    "category": "peace"
+  },
+  {
+    "quote": "Peace is not something you wish for; it's something you make.",
+    "author": "John Lennon",
+    "category": "peace"
+  },
+  {
+    "quote": "If you're not willing to risk, you cannot grow.",
+    "author": "Unknown",
+    "category": "ambition"
+  },
+  {
+    "quote": "The road to success and greatness is always paved with consistent hard work.",
+    "author": "Dwayne Johnson",
+    "category": "ambition"
+  },
+  {
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "category": "ambition"
+  },
+  {
+    "quote": "Things which matter most must never be at the mercy of things which matter least.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "time-management"
+  },
+  {
+    "quote": "Time is the scarcest resource and unless it is managed nothing else can be managed.",
+    "author": "Peter Drucker",
+    "category": "time-management"
+  },
+  {
+    "quote": "The shorter way to do many things is to only do one thing at a time.",
+    "author": "Mozart",
+    "category": "time-management"
+  },
+  {
+    "quote": "Investing should be more like watching paint dry or watching grass grow.",
+    "author": "Paul Samuelson",
+    "category": "finance"
+  },
+  {
+    "quote": "Know what you own, and know why you own it.",
+    "author": "Peter Lynch",
+    "category": "finance"
+  },
+  {
+    "quote": "The best investment you can make is in yourself.",
+    "author": "Warren Buffett",
+    "category": "finance"
+  },
+  {
+    "quote": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller",
+    "category": "life"
+  },
+  {
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde",
+    "category": "life"
+  },
+  {
+    "quote": "Life is made of ever so many partings welded together.",
+    "author": "Charles Dickens",
+    "category": "life"
+  },
+  {
+    "quote": "If you want happiness for an hour, take a nap. If you want happiness for a lifetime, help someone.",
+    "author": "Chinese Proverb",
+    "category": "happiness"
+  },
+  {
+    "quote": "Happiness is not in the mere possession of money; it lies in the joy of achievement.",
+    "author": "Franklin D. Roosevelt",
+    "category": "happiness"
+  },
+  {
+    "quote": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+    "author": "Lucius Annaeus Seneca",
+    "category": "happiness"
+  },
+  {
+    "quote": "If you want peace, you don't talk to your friends. You talk to your enemies.",
+    "author": "Desmond Tutu",
+    "category": "peace"
+  },
+  {
+    "quote": "The simplification of life is one of the steps to inner peace.",
+    "author": "Peace Pilgrim",
+    "category": "peace"
+  },
+  {
+    "quote": "Without ambition one starts nothing. Without work one finishes nothing.",
+    "author": "Ralph Waldo Emerson",
+    "category": "ambition"
+  },
+  {
+    "quote": "Intelligence without ambition is a bird without wings.",
+    "author": "Salvador Dali",
+    "category": "ambition"
+  },
+  {
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself.",
+    "author": "Jordan Belfort",
+    "category": "ambition"
+  },
+  {
+    "quote": "Time blocking is a time management method that asks you to divide your day into blocks of time.",
+    "author": "Cal Newport",
+    "category": "time-management"
+  },
+  {
+    "quote": "Lack of direction, not lack of time, is the problem. We all have twenty-four hour days.",
+    "author": "Zig Ziglar",
+    "category": "time-management"
+  },
+  {
+    "quote": "Compound interest is the eighth wonder of the world.",
+    "author": "Albert Einstein",
+    "category": "finance"
+  },
+  {
+    "quote": "Time in the market beats timing the market.",
+    "author": "Ken Fisher",
+    "category": "finance"
+  },
+  {
+    "quote": "And We have certainly created man in the best of stature.",
+    "author": "Quran 95:4",
+    "category": "life"
+  },
+  {
+    "quote": "Indeed, with hardship comes ease.",
+    "author": "Quran 94:6",
+    "category": "life"
+  },
+  {
+    "quote": "So verily, with every difficulty, there is relief.",
+    "author": "Quran 94:5",
+    "category": "peace"
+  },
+  {
+    "quote": "And He is with you wherever you are.",
+    "author": "Quran 57:4",
+    "category": "peace"
+  },
+  {
+    "quote": "Allah does not burden a soul beyond that it can bear.",
+    "author": "Quran 2:286",
+    "category": "life"
+  },
+  {
+    "quote": "The best among you are those who have the best manners and character.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "life"
+  },
+  {
+    "quote": "Speak good or remain silent.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "life"
+  },
+  {
+    "quote": "The strong person is not the one who can wrestle someone else down. The strong person is the one who can control himself when he is angry.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "peace"
+  },
+  {
+    "quote": "And whoever fears Allah, He will make for him a way out.",
+    "author": "Quran 65:2",
+    "category": "life"
+  },
+  {
+    "quote": "Be kind, for whenever kindness becomes part of something, it beautifies it.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "happiness"
+  },
+  {
+    "quote": "Do not lose hope, nor be sad.",
+    "author": "Quran 3:139",
+    "category": "happiness"
+  },
+  {
+    "quote": "Indeed, Allah is with those who are patient.",
+    "author": "Quran 2:153",
+    "category": "life"
+  },
+  {
+    "quote": "The believer who has the most perfect faith is the one whose character is finest and who is kindest to his wife.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "life"
+  },
+  {
+    "quote": "When you see a person who has been given more than you in money and beauty, look to those who have been given less.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "happiness"
+  },
+  {
+    "quote": "The worldly life is nothing but play and amusement, but far better is the Home in the Hereafter.",
+    "author": "Quran 6:32",
+    "category": "life"
+  },
+  {
+    "quote": "And seek help through patience and prayer.",
+    "author": "Quran 2:45",
+    "category": "peace"
+  },
+  {
+    "quote": "Richness is not having many possessions, but richness is being content with oneself.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "finance"
+  },
+  {
+    "quote": "The best of people are those that bring most benefit to the rest of mankind.",
+    "author": "Prophet Muhammad (PBUH)",
+    "category": "life"
+  },
+  {
+    "quote": "Life is a bridge. Cross over it, but build no house upon it.",
+    "author": "Islamic Wisdom",
+    "category": "life"
+  },
+  {
+    "quote": "The smallest good deed is better than the grandest intention.",
+    "author": "Islamic Wisdom",
+    "category": "ambition"
+  },
+  {
+    "quote": "Life is like a shadow. It will never be still for a moment.",
+    "author": "Unknown",
+    "category": "life"
+  },
+  {
+    "quote": "Every moment is a gift. That's why it's called the present.",
+    "author": "Unknown",
+    "category": "life"
+  },
+  {
+    "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+    "author": "Unknown",
+    "category": "life"
+  },
+  {
+    "quote": "In the end, we only regret the chances we didn't take and the decisions we waited too long to make.",
+    "author": "Unknown",
+    "category": "life"
+  },
+  {
+    "quote": "Life is a journey, and if you fall in love with the journey, you will be in love forever.",
+    "author": "Peter Hagerty",
+    "category": "life"
+  },
+  {
+    "quote": "The meaning of life is to find your gift. The purpose of life is to give it away.",
+    "author": "Pablo Picasso",
+    "category": "life"
+  },
+  {
+    "quote": "Life is a one-time offer, use it well.",
+    "author": "Unknown",
+    "category": "life"
+  },
+  {
+    "quote": "Don't count the days, make the days count.",
+    "author": "Muhammad Ali",
+    "category": "time-management"
+  },
+  {
+    "quote": "Life is short, and it's up to you to make it sweet.",
+    "author": "Sarah Louise Delany",
+    "category": "life"
+  },
+  {
+    "quote": "The purpose of life is a life of purpose.",
+    "author": "Robert Byrne",
+    "category": "ambition"
+  },
+  {
+    "quote": "Life isn't about waiting for the storm to pass, it's about learning to dance in the rain.",
+    "author": "Vivian Greene",
+    "category": "happiness"
+  },
+  {
+    "quote": "Your time is precious. Don't waste it living someone else's life.",
+    "author": "Unknown",
+    "category": "time-management"
+  },
+  {
+    "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein",
+    "category": "life"
+  },
+  {
+    "quote": "The greatest glory in living lies not in never failing, but in rising every time we fail.",
+    "author": "Nelson Mandela",
+    "category": "life"
+  },
+  {
+    "quote": "Life begins at the end of your comfort zone.",
+    "author": "Neale Donald Walsch",
+    "category": "ambition"
+  },
+  {
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "category": "peace"
+  },
+  {
+    "quote": "The best preparation for tomorrow is doing your best today.",
+    "author": "H. Jackson Brown Jr.",
+    "category": "time-management"
+  },
+  {
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "author": "Charles R. Swindoll",
+    "category": "life"
+  },
+  {
+    "quote": "May your choices reflect your hopes, not your fears.",
+    "author": "Nelson Mandela",
+    "category": "ambition"
+  },
+  {
+    "quote": "Strive not to be a success, but rather to be of value.",
+    "author": "Albert Einstein",
+    "category": "ambition"
+  },
+  {
+    "quote": "Remember that time is money.",
+    "author": "Benjamin Franklin",
+    "category": "finance"
+  },
+  {
+    "quote": "The early bird catches the worm.",
+    "author": "Proverb",
+    "category": "time-management"
+  },
+  {
+    "quote": "Life is too precious to waste on negativity.",
+    "author": "Unknown",
+    "category": "happiness"
+  },
+  {
+    "quote": "Each morning we are born again. What we do today is what matters most.",
+    "author": "Buddha",
+    "category": "life"
+  }
+]

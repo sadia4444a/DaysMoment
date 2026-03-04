@@ -1,0 +1,102 @@
+.date-display {
+  text-align: center;
+  padding: 10px 25px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  min-width: 500px;
+}
+
+.date-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.day-name {
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.date-number {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.date-suffix {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #999;
+}
+
+.month-year {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #cccccc;
+  letter-spacing: 0.8px;
+}
+
+.time-display {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.8px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 768px) {
+  .date-display {
+    min-width: 300px;
+    padding: 20px;
+  }
+
+  .day-name {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  .date-number {
+    font-size: 2.5rem;
+  }
+
+  .date-suffix {
+    font-size: 1.2rem;
+  }
+
+  .month-year {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-display {
+    min-width: 250px;
+    padding: 15px;
+  }
+
+  .day-name {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  .date-number {
+    font-size: 2rem;
+  }
+
+  .date-suffix {
+    font-size: 1rem;
+  }
+
+  .month-year {
+    font-size: 1rem;
+  }
+}
