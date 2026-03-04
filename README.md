@@ -162,7 +162,7 @@ DaysMoment/
 
 ### Main Interface
 
-<img src="./screenshot.png" alt="Main Interface" width="700px" />
+<img src="https://github.com/sadia4444a/DaysMoment/blob/main/daysMoment.png" alt="Main Interface" width="700px" />
 
 _Clean, minimalist design showing date, circular clock, and inspirational quote_
 
