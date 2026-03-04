@@ -373,9 +373,8 @@ This project is licensed under the ISC License.
 
 Have questions or suggestions? Feel free to reach out!
 
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourusername](https://twitter.com/yourusername)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- 📧 Email: sadiasultana4444a@gmail.com
+- 💼 LinkedIn: [Sadia Khatun](https://linkedin.com/in/sadiakhatun)
 
 ---
 
