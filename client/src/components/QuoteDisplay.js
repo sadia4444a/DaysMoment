@@ -26,7 +26,7 @@ const QuoteDisplay = () => {
     // Fetch new quote every 1 minute (60000 ms)
     const interval = setInterval(() => {
       fetchQuote();
-    }, 60000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []);
