@@ -1,0 +1,507 @@
+.task-tracker-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.task-tracker-container {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #666;
+  cursor: pointer;
+  z-index: 10;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  background: #f0f0f0;
+  color: #000;
+  transform: rotate(90deg);
+}
+
+.tracker-header {
+  padding: 30px 30px 15px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tracker-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+
+.motivational-quote {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+  font-style: italic;
+  min-height: 20px;
+}
+
+.nav-tabs {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  background: #fafafa;
+}
+
+.nav-tab {
+  flex: 1;
+  padding: 15px;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-tab:hover:not(:disabled) {
+  background: #f0f0f0;
+  color: #000;
+}
+
+.nav-tab.active {
+  color: #000;
+  border-bottom-color: #000;
+  background: #ffffff;
+}
+
+.nav-tab:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.tracker-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 25px;
+}
+
+/* Create Task View */
+.create-task-view {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group input {
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background: #fafafa;
+  color: #000;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #000;
+  background: #ffffff;
+}
+
+.time-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.time-inputs input {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.start-btn {
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.start-btn:hover:not(:disabled) {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.start-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Timer View */
+.timer-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 0;
+}
+
+.current-task-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.timer-display {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring-circle-bg {
+  fill: none;
+  stroke: #f0f0f0;
+  stroke-width: 8;
+}
+
+.progress-ring-circle {
+  fill: none;
+  stroke: #000;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-dasharray: 565.48;
+  stroke-dashoffset: calc(565.48 * (1 - var(--progress, 0)));
+}
+
+.timer-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.time-remaining {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.time-label {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.timer-controls {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.control-btn {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.pause-btn,
+.resume-btn {
+  background: #fff;
+  color: #000;
+}
+
+.pause-btn:hover,
+.resume-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.stop-btn {
+  background: #000;
+  color: #fff;
+}
+
+.stop-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* History & Search Views */
+.history-view,
+.search-view {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.history-header,
+.search-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.history-header h3,
+.search-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.total-time {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  padding: 6px 12px;
+  background: #f0f0f0;
+  border-radius: 20px;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.activities-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.activities-list::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.activities-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.activities-list::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #fafafa;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease;
+}
+
+.activity-item:hover {
+  background: #f0f0f0;
+  border-color: #ccc;
+}
+
+.activity-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.activity-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+
+.activity-status {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.activity-status.completed {
+  color: #4caf50;
+}
+
+.activity-status.stopped {
+  color: #ff9800;
+}
+
+.activity-time {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  padding: 40px 20px;
+}
+
+/* Search Form */
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-form label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.search-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.search-input-group input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #fafafa;
+  color: #000;
+}
+
+.search-input-group input:focus {
+  outline: none;
+  border-color: #000;
+  background: #ffffff;
+}
+
+.search-btn {
+  padding: 12px 25px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .task-tracker-container {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 15px;
+  }
+
+  .tracker-header {
+    padding: 25px 20px 15px;
+  }
+
+  .tracker-title {
+    font-size: 24px;
+  }
+
+  .tracker-content {
+    padding: 20px;
+  }
+
+  .timer-display {
+    width: 180px;
+    height: 180px;
+  }
+
+  .time-remaining {
+    font-size: 28px;
+  }
+
+  .nav-tab {
+    font-size: 13px;
+    padding: 12px 8px;
+  }
+}

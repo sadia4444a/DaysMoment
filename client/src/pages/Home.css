@@ -1,0 +1,263 @@
+/* ==================== Modern Home Page Design ==================== */
+
+.home-page {
+  min-height: 100vh;
+  background: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animated background pattern */
+.home-background-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.05) 0%, transparent 70%);
+  animation: patternShift 20s ease-in-out infinite;
+}
+
+@keyframes patternShift {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.1); }
+}
+
+/* Main container */
+.home-container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero section */
+.home-hero {
+  text-align: center;
+  max-width: 700px;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 0 20px;
+  background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.home-description {
+  font-size: 1.125rem;
+  color: #a0a0a0;
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* Features grid */
+.features-grid {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 0 20px;
+}
+
+/* Feature card */
+.feature-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.feature-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.feature-card-inner {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  min-height: 160px;
+}
+
+/* Accent bar */
+.feature-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.feature-card:hover .feature-accent {
+  opacity: 1;
+}
+
+/* Feature content */
+.feature-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.feature-description {
+  font-size: 0.9375rem;
+  color: #999999;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+/* Arrow icon */
+.feature-arrow {
+  align-self: flex-end;
+  color: #666666;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.feature-card:hover .feature-arrow {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(4px);
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666666;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+}
+
+/* ==================== Responsive Design ==================== */
+
+@media (max-width: 768px) {
+  .home-page {
+    padding: 30px 15px;
+  }
+
+  .home-container {
+    gap: 40px;
+  }
+
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .home-description {
+    font-size: 1rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0;
+  }
+
+  .feature-card-inner {
+    padding: 24px;
+    min-height: 140px;
+  }
+
+  .feature-title {
+    font-size: 1.25rem;
+  }
+
+  .feature-description {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-title {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .home-description {
+    font-size: 0.9375rem;
+  }
+
+  .feature-card-inner {
+    padding: 20px;
+    min-height: 120px;
+  }
+
+  .feature-title {
+    font-size: 1.125rem;
+  }
+
+  .home-footer {
+    font-size: 0.8125rem;
+    margin-top: 10px;
+  }
+}
+
+/* ==================== Dark theme refinements ==================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .home-background-pattern {
+    animation: none;
+  }
+  
+  .feature-card {
+    transition: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .feature-card {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .feature-card:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}

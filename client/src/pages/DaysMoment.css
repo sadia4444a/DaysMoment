@@ -1,0 +1,137 @@
+.daysmoment-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.daysmoment-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.back-home-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 100;
+  letter-spacing: 0.5px;
+}
+
+.back-home-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateX(-5px);
+}
+
+.daysmoment-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.daysmoment-header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.daysmoment-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 3px;
+  background: linear-gradient(90deg, #ffffff 0%, #cccccc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.daysmoment-subtitle {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #999;
+  letter-spacing: 1.5px;
+}
+
+.daysmoment-clock-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.daysmoment-footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #666;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .daysmoment-title {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+  }
+
+  .daysmoment-subtitle {
+    font-size: 1rem;
+  }
+
+  .daysmoment-container {
+    gap: 20px;
+  }
+
+  .back-home-btn {
+    top: 15px;
+    left: 15px;
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .daysmoment-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .daysmoment-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .back-home-btn {
+    top: 10px;
+    left: 10px;
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+}
