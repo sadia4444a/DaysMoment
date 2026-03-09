@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import './DaysTime.css';
@@ -28,6 +28,49 @@ function DaysTime() {
   const [isTodayTasksOpen, setIsTodayTasksOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const timerRef = useRef(null);
+
+  const fetchTodayActivities = async () => {
+    try {
+      const response = await fetch(
+        'http://localhost:5001/api/activities/today',
+      );
+      const data = await response.json();
+      setTodayActivities(data);
+    } catch (error) {
+      console.error('Error fetching today activities:', error);
+    }
+  };
+
+  const resetTask = useCallback(() => {
+    setCurrentTask(null);
+    setTimeRemaining(7200);
+    setInitialTime(7200);
+    setTaskName('');
+    setHours('');
+    setMinutes('');
+    setIsPaused(false);
+  }, []);
+
+  const saveActivity = useCallback(async (name, timeSpent, completed) => {
+    try {
+      await fetch('http://localhost:5001/api/activities', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ taskName: name, timeSpent, completed }),
+      });
+      fetchTodayActivities();
+    } catch (error) {
+      console.error('Error saving activity:', error);
+    }
+  }, []);
+
+  const completeTask = useCallback(async () => {
+    if (currentTask) {
+      const timeSpent = currentTask.totalTime;
+      await saveActivity(currentTask.name, timeSpent, true);
+      resetTask();
+    }
+  }, [currentTask, saveActivity, resetTask]);
 
   useEffect(() => {
     setCurrentQuote(
@@ -63,19 +106,7 @@ function DaysTime() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [currentTask, isPaused, timeRemaining]);
-
-  const fetchTodayActivities = async () => {
-    try {
-      const response = await fetch(
-        'http://localhost:5001/api/activities/today',
-      );
-      const data = await response.json();
-      setTodayActivities(data);
-    } catch (error) {
-      console.error('Error fetching today activities:', error);
-    }
-  };
+  }, [currentTask, isPaused, timeRemaining, completeTask]);
 
   const startTask = () => {
     const h = parseInt(hours) || 0;
@@ -102,43 +133,12 @@ function DaysTime() {
     setIsPaused(false);
   };
 
-  const completeTask = async () => {
-    if (currentTask) {
-      const timeSpent = currentTask.totalTime;
-      await saveActivity(currentTask.name, timeSpent, true);
-      resetTask();
-    }
-  };
-
   const stopTask = async () => {
     if (currentTask) {
       const timeSpent = currentTask.totalTime - timeRemaining;
       await saveActivity(currentTask.name, timeSpent, false);
       resetTask();
     }
-  };
-
-  const saveActivity = async (name, timeSpent, completed) => {
-    try {
-      await fetch('http://localhost:5001/api/activities', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ taskName: name, timeSpent, completed }),
-      });
-      fetchTodayActivities();
-    } catch (error) {
-      console.error('Error saving activity:', error);
-    }
-  };
-
-  const resetTask = () => {
-    setCurrentTask(null);
-    setTimeRemaining(7200);
-    setInitialTime(7200);
-    setTaskName('');
-    setHours('');
-    setMinutes('');
-    setIsPaused(false);
   };
 
   const deleteActivity = async (activityId) => {
